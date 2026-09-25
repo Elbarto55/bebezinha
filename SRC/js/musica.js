@@ -24,7 +24,7 @@ const playlist = [
      {
         title: "Ela So Quer Paz",
         artist: "Projota",
-        src: "../musica/Ela-Paz.mp3",
+        src: "../musica/Paz.mp3",
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8VJvS_zMgRjwgjnAJ2VORaVzT9IdLRpbW4J7n2jdR5g&s=10"
     },
 
@@ -38,7 +38,7 @@ const playlist = [
      {
         title: "Preta",
         artist: "Hungria Hip Hop",
-        src: "../musica/Pretaamor.mp3",
+        src: "../musica/Preta.mp3",
         cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7c9lFK3Wb5gXvfmVxghlbWvxKLSyR2sK0RgwBJ3XELQ&s=10"
     },
 
@@ -66,7 +66,7 @@ const playlist = [
       {
         title: "Vem ca",
         artist: "Pele MIlFlows",
-        src: "../musica/Vemca.mp3",
+        src: "../musica/Vem-ca.mp3",
         cover: "https://i.scdn.co/image/ab67616d00001e023b09db5c0356ad00d2be5b90"
     },
 
