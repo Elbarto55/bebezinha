@@ -1,0 +1,131 @@
+
+
+    .player {
+        width: 90%;
+        max-width: 800px;
+        background: #1b1b1b;
+        padding: 20px;
+        color: white;
+        border-radius: 22px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 0 0 20px #0007;
+        margin: 20px auto;
+    }
+
+    .cover {
+        width: 110px;
+        height: 110px;
+        border-radius: 15px;
+        overflow: hidden;
+        animation: none;
+    }
+
+    .rotate {
+        animation: spin 6s linear infinite;
+    }
+
+    @keyframes spin {
+        from { transform: rotate(0); }
+        to { transform: rotate(360deg); }
+    }
+
+    .cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .info {
+        flex: 1;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .artist {
+        opacity: 0.7;
+        margin-bottom: 10px;
+    }
+
+    .progress {
+        width: 100%;
+        height: 7px;
+        background: #444;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: block;
+    }
+
+    .progress-bar {
+        height: 100%;
+        width: 0%;
+        background: white;
+        transition: width 0.1s linear;
+    }
+
+    .time {
+        font-size: 13px;
+        opacity: 0.8;
+    }
+
+    .controls {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .play-btn {
+        background: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .play-btn img {
+        width: 28px;
+    }
+
+    .control-btn {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        flex-shrink: 0;
+        transition: background 0.2s ease;
+    }
+
+    .control-btn:hover {
+        background: #ffffff22;
+    }
+
+    .control-btn svg {
+        width: 20px;
+        height: 20px;
+        fill: white;
+    }
+
+    @media (max-width: 500px) {
+        .player {
+            flex-wrap: wrap;
+        }
+        .controls {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+

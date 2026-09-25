@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script&family=Momo+Signature&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script&family=Momo+Signature&family=Playwrite+NZ+Guides&display=swap');
+
+h1 {
+    text-align: center;  
+    font-family: 'Momo Signature', cursive;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.6;
+    margin: 20px;
+}

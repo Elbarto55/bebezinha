@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icon/meugrandeamor.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/carrossel.css">
+    <link rel="stylesheet" href="../CSS/palafras.css">
+    <link rel="stylesheet" href="../CSS/musica.css">
+    <link rel="stylesheet" href="../CSS/cronometro.css">
+    <link rel="stylesheet" href="../CSS/body.css">
+    <script src="../js/carrossel.js" defer></script>
+    <script src="../js/musica.js" defer></script>
+    <script src="../js/cronometro.js" defer></script>
+    <script src="../js/meteoros.js" defer></script>
+    <title>MInha Bebezinha...</title>
+</head>
+<body>
+
+<center>
+<div class="player">
+    <div class="cover" id="cover">
+        <img id="coverImg" src="https://i.pinimg.com/736x/ac/33/4c/ac334c9e08ef9b3d6d012373ddd010af.jpg">
+    </div>
+
+    <div class="info">
+        <div class="title" id="musicTitle">Poesia Acústica #2</div>
+        <div class="artist" id="musicArtist">PineappleStormTV</div>
+
+        <div class="progress">
+            <div class="progress-bar" id="progress"></div>
+        </div>
+
+        <div class="time" id="time">0:00 / 0:00</div>
+    </div>
+
+    <div class="controls">
+        <div class="control-btn" id="prevBtn" title="Música anterior">
+            <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+        </div>
+
+        <div class="play-btn" id="playBtn">
+            <img id="playIcon" src="https://img.icons8.com/ios-filled/50/play--v1.png">
+        </div>
+
+        <div class="control-btn" id="nextBtn" title="Próxima música">
+            <svg viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
+        </div>
+    </div>
+</div>
+
+<audio id="audio"></audio>
+</center>
+
+<br>
+<h1>Minha Bebezinha...</h1>
+<br>
+<div class="carousel-container">
+  <div class="carousel-track" id="track">
+    <!-- ADICIONE QUANTAS FOTOS QUISER -->
+    <div class="slide"><img src="../img/bebe-1.jpeg" /></div>
+    <div class="slide"><img src="../img/bebe-2.jpeg" /></div>
+    <div class="slide"><img src="../img/bebe-3.jpeg" /></div>
+    <div class="slide"><img src="../img/bebe-4.jpeg" /></div>
+
+    <!-- pode adicionar 9,10,11... -->
+  </div>
+</div>
+
+<div class="dots" id="dots"></div>
+
+<br>
+<br>
+<h2>BEBEZINHA</h2>
+
+<p>
+
+Não foi de repente, nem foi ilusão,
+<br>
+foi devagar, crescendo no coração.
+<br>
+Cada olhar teu, cada riso teu,
+<br>
+fez o meu mundo mais bonito e meu.
+<br>
+<br>
+Não falo de estrelas que não posso tocar,
+<br>
+falo de ti, do teu jeito, do teu olhar.
+<br>
+És a verdade que eu sempre procurei,
+<br>
+o abrigo calmo onde eu sempre fiquei.
+<br>
+<br>
+Não há frases feitas, não há fingimento,
+<br>
+só este sentimento puro e verdadeiro.
+<br>
+Quero caminhar contigo, lado a lado,
+<br>
+fazer do nosso dia o nosso melhor legado.
+<br>
+<br>
+E agora, sem medo, de coração aberto,
+<br>
+pergunto a ti, com todo o respeito:
+<br>
+<br>
+Queres ser minha namorada?
+<br>
+Não prometo o impossível, prometo te amar,
+<br>
+cuidar de ti, e contigo sempre ficar.
+<br>
+Só tu, só eu, e o amor que vamos construir —
+<br>
+para sempre, juntos, sem nunca partir. 💌
+</p>
+
+<footer>
+        <h2>💓 NOSSO PRIMEIRA CONVERÇA 💓</h2>
+     <div class="contagem">
+        <div class="conterner dias">
+            <p class="txt" id="dias">00</p>
+            <span>dias</span>
+        </div>
+
+        <div class="conterner horas">
+            <p class="txt" id="horas">00</p>
+            <span>horas</span>
+        </div>
+
+        <div class="conterner minutos">
+            <p class="txt" id="minutos">00</p>
+            <span>minutos</span>
+        </div>
+
+        <div class="conterner segundos">
+            <p class="txt" id="segundos">00</p>
+            <span>segundos</span>
+        </div>
+     </div>
+    </footer>
+
+    <video id="video-bg" autoplay muted loop playsinline>
+    <source src="../video/5K Shooting Stars ★ 1-Hour Night-Sky ★ Video Background - UHD Animation ║ HD Longest FREE 4K(720P_HD).mp4" type="video/mp4">
+</video>
+
+
+</body>
+</html>

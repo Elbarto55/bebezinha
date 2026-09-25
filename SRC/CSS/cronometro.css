@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@665&family=Inconsolata:wght@200..900&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+
+}
+
+.contagem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.txt{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    color: #ffffff;
+}
+
+.conterner{
+    text-align: center;
+}
+
+.conterner span{
+    font-size: 1.5rem;
+    color: #fffefe;
+}

@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 80px;
+    width: 320px;
+    box-shadow: 0 0 20px rgba(255, 75, 43, 0.5);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(255, 75, 43, 0.8);
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+button:active {
+    transform: scale(0.95);
+}
